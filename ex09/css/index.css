@@ -1,0 +1,117 @@
+body {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;;
+}
+* {
+    text-align: center;
+  }
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(59, 47, 47);
+    position: fixed;
+    top: 0;
+
+}
+
+.container img {
+    width: 100%;
+
+}
+
+#branding {
+    display: block;
+    margin: 0px 0px 0px 40px;
+
+   }
+
+#branding h1 {
+ float: left;
+}
+
+.container img {
+    filter: grayscale(100%);
+}
+
+
+nav {
+    margin: 10px 50px 0px 0px;
+
+}
+
+nav ul a {
+    float: right;
+    text-transform: capitalize;
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.current {
+    color: orangered;
+}
+
+.highlight {
+color: white;}
+
+#showcase .container h1 p {
+ display: block;
+
+}
+
+
+
+#newsletter {
+ display: flex;
+}
+#newsletter .container {
+    
+}
+   
+form {
+
+}
+.button1 {
+
+}
+
+#boxes #container {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+}
+
+.box {
+    margin: 20px;
+    padding: 20px;
+}
+
+#html-logo img {
+ width: 20%;
+}
+
+
+#css-logo img  {
+    width: 20%;
+}
+
+#js-logo img {
+    width: 20%;
+}
+
+footer {
+ background-color: orangered;
+ padding:10px 20px;
+ text-align: center;
+}
